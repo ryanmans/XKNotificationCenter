@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XKNotificationCenter/Classes/**/*"
+  "source_files": "XKNotificationCenter/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "XKNotificationCenter/Classes/XKNotificationCenter.framework"
+  }
 }

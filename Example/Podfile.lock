@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKNotificationCenter: b57f14ed0a91c1abc5033968c875f3ad3fc644e2
+  XKNotificationCenter: 16d8100a43308275705e77089b12c904a0d7cff7
 
 PODFILE CHECKSUM: 8c0ce34714f0cee99b1e5114b9f20eaf0befb699
 

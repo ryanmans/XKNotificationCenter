@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		031960189734CC630661F7B7C190A3AA /* Pods-XKNotificationCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97687FA0336EE0E4DF3F04046B1580CA /* Pods-XKNotificationCenter_Example-dummy.m */; };
-		1A37DC7D439BEFB59EFAE5DB96646C0E /* XKNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 67001B82D96F8440317FB9B1438A3AEF /* XKNotificationCenter.m */; };
+		0E7DC96E9E621F824EB58F724D234F63 /* XKNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 818F976D543EE032FC2A653926FA88F1 /* XKNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC6461E7D16ADC12C00471D3D1DEF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		35960ABA57E36D5AC864A8633AD8568D /* XKNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 21768F9714C6F4E0F3552C2DA369A604 /* XKNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58C915CA8ACABA2276F0B0BCA145649F /* XKNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6B35E77BE4C499C9BE234F70E0AF98 /* XKNotificationCenter-dummy.m */; };
+		65B8CF9C34F4A62315CF29FEC1BD6133 /* XKNotificationCenter in Sources */ = {isa = PBXBuildFile; fileRef = 72139595133BF199E82DB6289360E33D /* XKNotificationCenter */; };
 		7206101B46A74F8271ED62617B342DC9 /* Pods-XKNotificationCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1008CABC2FD7ECCAA2E5977560A715 /* Pods-XKNotificationCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75EE6AF8BCC192795C56F95DBA1403CC /* Pods-XKNotificationCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C880B70B27CFE0C5BED637EC689D39 /* Pods-XKNotificationCenter_Tests-dummy.m */; };
-		82DE0ED0F6E5DFE64FCBB75BCB057621 /* XKNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99978DCF26F713A7E4D170189772B8E /* XKNotificationCenter-dummy.m */; };
-		890AEA3401FAF362B92CFEA45942A621 /* XKNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC69A72C940D02285004F8C658AA5293 /* XKNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833EAF6DCA955A113F08399271905181 /* XKNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D5B0C5B1EC68038CB04C95E1584F11 /* XKNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		965010C953C563DA2F937E977012C0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		C75AF43BE1EAB41301ECC874EFE38C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E980066B6F7FD66CD48E304393D37BDD /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = E09914CC011EF4F1CF982525686958D2 /* module.modulemap */; };
 		F6EBA28B2A8CC790B2EA00EA1A977111 /* Pods-XKNotificationCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF976E9E4507A764AE888FAC349E1D0 /* Pods-XKNotificationCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,38 +39,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A47B87AC5B4EC75035D5A7C8EEA13DE /* XKNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
 		0C0C2042E70DC565E19A4A17243DA34B /* XKNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKNotificationCenter.framework; path = XKNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A6138F0B47F011DFA7707FDA409CF /* Pods-XKNotificationCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKNotificationCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21768F9714C6F4E0F3552C2DA369A604 /* XKNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKNotificationCenter.h; path = XKNotificationCenter/Classes/XKNotificationCenter.h; sourceTree = "<group>"; };
 		2F1008CABC2FD7ECCAA2E5977560A715 /* Pods-XKNotificationCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKNotificationCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3474A8D97C1AD30869A66E1E28E5AD89 /* Pods-XKNotificationCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKNotificationCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3845101B19768282BA3844516647FA49 /* XKNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKNotificationCenter.xcconfig; sourceTree = "<group>"; };
+		3F427E1EF9EAF3811F75DF0F0F4054FF /* XKNotificationCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKNotificationCenter-Info.plist"; sourceTree = "<group>"; };
+		4625A8A1AA2F880F24740A04262F9321 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		49BB0369007054506882B07F3737851F /* Pods-XKNotificationCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKNotificationCenter_Example.modulemap"; sourceTree = "<group>"; };
+		56164907C136E41885949D29CBF22122 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		56FF019401741A65EDF1C37862D437A3 /* Pods_XKNotificationCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKNotificationCenter_Tests.framework; path = "Pods-XKNotificationCenter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C705AEC3A78C89E9EC8EAD3956631BD /* Pods-XKNotificationCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKNotificationCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		652E124E248A75AACED63FB610301280 /* XKNotificationCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKNotificationCenter-Info.plist"; sourceTree = "<group>"; };
-		67001B82D96F8440317FB9B1438A3AEF /* XKNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKNotificationCenter.m; path = XKNotificationCenter/Classes/XKNotificationCenter.m; sourceTree = "<group>"; };
-		6DBE2817030F99979811CA8FE362FF6F /* XKNotificationCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKNotificationCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72139595133BF199E82DB6289360E33D /* XKNotificationCenter */ = {isa = PBXFileReference; includeInIndex = 1; path = XKNotificationCenter; sourceTree = "<group>"; };
 		72C880B70B27CFE0C5BED637EC689D39 /* Pods-XKNotificationCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKNotificationCenter_Tests-dummy.m"; sourceTree = "<group>"; };
-		826B4941D6D8DEB342336D5EEA0013E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8C9D2775AF3DE622BA0777720AE2E4AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B24EAC7473A7FFB27B2BF5D31225717 /* XKNotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XKNotificationCenter.framework; path = XKNotificationCenter/Classes/XKNotificationCenter.framework; sourceTree = "<group>"; };
+		818F976D543EE032FC2A653926FA88F1 /* XKNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKNotificationCenter.h; sourceTree = "<group>"; };
+		8807C7B51397C7BA8C03C50FCFE53101 /* XKNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKNotificationCenter.xcconfig; sourceTree = "<group>"; };
 		8EB4B06BB477B9E7BB82BF3186387513 /* Pods-XKNotificationCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKNotificationCenter_Tests.modulemap"; sourceTree = "<group>"; };
 		8F2DA96A7C293B048693C62261261F39 /* Pods-XKNotificationCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKNotificationCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93100BD8F9A5CD34CF6C3B156C95B9D3 /* XKNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
 		97687FA0336EE0E4DF3F04046B1580CA /* Pods-XKNotificationCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKNotificationCenter_Example-dummy.m"; sourceTree = "<group>"; };
 		98C96918DE8F35DC59C65E907C6E63A4 /* Pods-XKNotificationCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKNotificationCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		99D8FB4202DA21F4780A43E7977BC589 /* Pods-XKNotificationCenter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKNotificationCenter_Tests-Info.plist"; sourceTree = "<group>"; };
 		9A75A7473AD5683B11CAD9BAF8BFE7A4 /* Pods-XKNotificationCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKNotificationCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4CF60612C2B67F15F728A372694F4BD /* XKNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKNotificationCenter.modulemap; sourceTree = "<group>"; };
-		A99978DCF26F713A7E4D170189772B8E /* XKNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKNotificationCenter-dummy.m"; sourceTree = "<group>"; };
 		AADC6CECF1C60453F09805193D2951C6 /* Pods-XKNotificationCenter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKNotificationCenter_Example-Info.plist"; sourceTree = "<group>"; };
 		ABC47E9758F6DD3D43386EAEFFE2F85B /* Pods-XKNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC69A72C940D02285004F8C658AA5293 /* XKNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
+		AD9DF23B012B3D4E221010DA2B88FF29 /* XKNotificationCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKNotificationCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3613B87CD6C96CDC11C3BD2819A278F /* XKNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKNotificationCenter.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD29CAA5FF3016DFA412FF32E8C71FD2 /* Pods_XKNotificationCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKNotificationCenter_Example.framework; path = "Pods-XKNotificationCenter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5077C7A6D8BC2F6CB3BEE81397BD101 /* Pods-XKNotificationCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKNotificationCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E09914CC011EF4F1CF982525686958D2 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		EA6B35E77BE4C499C9BE234F70E0AF98 /* XKNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKNotificationCenter-dummy.m"; sourceTree = "<group>"; };
 		ECF976E9E4507A764AE888FAC349E1D0 /* Pods-XKNotificationCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKNotificationCenter_Example-umbrella.h"; sourceTree = "<group>"; };
+		F4D5B0C5B1EC68038CB04C95E1584F11 /* XKNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
 		F5D4418098EC690DC2752202474D17E4 /* Pods-XKNotificationCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKNotificationCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,16 +104,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		055D368DFF2689B6721CE64FE69E4850 /* XKNotificationCenter */ = {
+		017D8B65CFC6AF144299FF3C06AF15E8 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				21768F9714C6F4E0F3552C2DA369A604 /* XKNotificationCenter.h */,
-				67001B82D96F8440317FB9B1438A3AEF /* XKNotificationCenter.m */,
-				F5C13D449933373576CA677D7E91A9B7 /* Pod */,
-				EB3E372E711751BAE3AA11752CDBB122 /* Support Files */,
+				72139595133BF199E82DB6289360E33D /* XKNotificationCenter */,
+				0F7206B6BF53E40663C71C242C0D8136 /* Headers */,
 			);
-			name = XKNotificationCenter;
-			path = ../..;
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		0F7206B6BF53E40663C71C242C0D8136 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				818F976D543EE032FC2A653926FA88F1 /* XKNotificationCenter.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		18FC37A6AC843F3A79CD8F4C6DF3F103 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3613B87CD6C96CDC11C3BD2819A278F /* XKNotificationCenter.modulemap */,
+				8807C7B51397C7BA8C03C50FCFE53101 /* XKNotificationCenter.xcconfig */,
+				EA6B35E77BE4C499C9BE234F70E0AF98 /* XKNotificationCenter-dummy.m */,
+				3F427E1EF9EAF3811F75DF0F0F4054FF /* XKNotificationCenter-Info.plist */,
+				0A47B87AC5B4EC75035D5A7C8EEA13DE /* XKNotificationCenter-prefix.pch */,
+				F4D5B0C5B1EC68038CB04C95E1584F11 /* XKNotificationCenter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKNotificationCenter";
 			sourceTree = "<group>";
 		};
 		4E18F08116458F6C2D76633E82174049 /* Pods-XKNotificationCenter_Example */ = {
@@ -128,6 +152,22 @@
 			);
 			name = "Pods-XKNotificationCenter_Example";
 			path = "Target Support Files/Pods-XKNotificationCenter_Example";
+			sourceTree = "<group>";
+		};
+		53CE3E38A08CCD033E59C9D402B1B78C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BC0AEBDCCED4E4FC50AB9492ED965 /* XKNotificationCenter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		63D49B8D51C75A3E58CBA4EEB4ED4D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B24EAC7473A7FFB27B2BF5D31225717 /* XKNotificationCenter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		676121837ABBB801403C1AD540ED9861 /* Targets Support Files */ = {
@@ -163,6 +203,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		9F74CBD9AD8192519EB033A6D8EB0886 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				017D8B65CFC6AF144299FF3C06AF15E8 /* A */,
+			);
+			name = Versions;
+			path = XKNotificationCenter/Classes/XKNotificationCenter.framework/Versions;
+			sourceTree = "<group>";
+		};
 		C3AEB3AA2C70145657392A9B3DA4C3E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,11 +222,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD3BC0AEBDCCED4E4FC50AB9492ED965 /* XKNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				63D49B8D51C75A3E58CBA4EEB4ED4D05 /* Frameworks */,
+				D402FFF8C9705FFF6861F645A4C039F4 /* Modules */,
+				DD192AFA3CAB1E3EAB827560B1FEABBD /* Pod */,
+				18FC37A6AC843F3A79CD8F4C6DF3F103 /* Support Files */,
+				9F74CBD9AD8192519EB033A6D8EB0886 /* Versions */,
+			);
+			name = XKNotificationCenter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD23AE28BA9E1D30DBC6DAEC724D3D0F /* Development Pods */,
+				53CE3E38A08CCD033E59C9D402B1B78C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C3AEB3AA2C70145657392A9B3DA4C3E8 /* Products */,
 				676121837ABBB801403C1AD540ED9861 /* Targets Support Files */,
@@ -192,47 +254,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB3E372E711751BAE3AA11752CDBB122 /* Support Files */ = {
+		D402FFF8C9705FFF6861F645A4C039F4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A4CF60612C2B67F15F728A372694F4BD /* XKNotificationCenter.modulemap */,
-				3845101B19768282BA3844516647FA49 /* XKNotificationCenter.xcconfig */,
-				A99978DCF26F713A7E4D170189772B8E /* XKNotificationCenter-dummy.m */,
-				652E124E248A75AACED63FB610301280 /* XKNotificationCenter-Info.plist */,
-				93100BD8F9A5CD34CF6C3B156C95B9D3 /* XKNotificationCenter-prefix.pch */,
-				AC69A72C940D02285004F8C658AA5293 /* XKNotificationCenter-umbrella.h */,
+				E09914CC011EF4F1CF982525686958D2 /* module.modulemap */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XKNotificationCenter";
+			name = Modules;
+			path = XKNotificationCenter/Classes/XKNotificationCenter.framework/Modules;
 			sourceTree = "<group>";
 		};
-		F5C13D449933373576CA677D7E91A9B7 /* Pod */ = {
+		DD192AFA3CAB1E3EAB827560B1FEABBD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8C9D2775AF3DE622BA0777720AE2E4AA /* LICENSE */,
-				826B4941D6D8DEB342336D5EEA0013E1 /* README.md */,
-				6DBE2817030F99979811CA8FE362FF6F /* XKNotificationCenter.podspec */,
+				56164907C136E41885949D29CBF22122 /* LICENSE */,
+				4625A8A1AA2F880F24740A04262F9321 /* README.md */,
+				AD9DF23B012B3D4E221010DA2B88FF29 /* XKNotificationCenter.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		FD23AE28BA9E1D30DBC6DAEC724D3D0F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				055D368DFF2689B6721CE64FE69E4850 /* XKNotificationCenter */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		21C7D13A22A2B9B9BFB3272C56A32FBC /* Headers */ = {
+		2C92C1CE3F97ACF954D6A268EA756253 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890AEA3401FAF362B92CFEA45942A621 /* XKNotificationCenter-umbrella.h in Headers */,
-				35960ABA57E36D5AC864A8633AD8568D /* XKNotificationCenter.h in Headers */,
+				833EAF6DCA955A113F08399271905181 /* XKNotificationCenter-umbrella.h in Headers */,
+				0E7DC96E9E621F824EB58F724D234F63 /* XKNotificationCenter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +346,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8764FC40EC76BC8202EC2439CD9AE53 /* Build configuration list for PBXNativeTarget "XKNotificationCenter" */;
 			buildPhases = (
-				21C7D13A22A2B9B9BFB3272C56A32FBC /* Headers */,
-				15CDF3B62D073B8E8AD8FDD732D0A30B /* Sources */,
+				2C92C1CE3F97ACF954D6A268EA756253 /* Headers */,
+				A81BEC2F9B3401303CBA72681B792774 /* Sources */,
 				6397FFEAD55668051E922479D8F0DA1A /* Frameworks */,
 				3DC72FA669B275FECB82D11C818D6979 /* Resources */,
 			);
@@ -364,15 +413,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15CDF3B62D073B8E8AD8FDD732D0A30B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82DE0ED0F6E5DFE64FCBB75BCB057621 /* XKNotificationCenter-dummy.m in Sources */,
-				1A37DC7D439BEFB59EFAE5DB96646C0E /* XKNotificationCenter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B56F6B9F91FD4F71A7F807B1EBA1C67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +426,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EE6AF8BCC192795C56F95DBA1403CC /* Pods-XKNotificationCenter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81BEC2F9B3401303CBA72681B792774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E980066B6F7FD66CD48E304393D37BDD /* module.modulemap in Sources */,
+				65B8CF9C34F4A62315CF29FEC1BD6133 /* XKNotificationCenter in Sources */,
+				58C915CA8ACABA2276F0B0BCA145649F /* XKNotificationCenter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +617,7 @@
 		};
 		46A1EE0BBACFB701BB677BF92780D5DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3845101B19768282BA3844516647FA49 /* XKNotificationCenter.xcconfig */;
+			baseConfigurationReference = 8807C7B51397C7BA8C03C50FCFE53101 /* XKNotificationCenter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,7 +715,7 @@
 		};
 		9BBFF05B178740B6B77CA71941082E5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3845101B19768282BA3844516647FA49 /* XKNotificationCenter.xcconfig */;
+			baseConfigurationReference = 8807C7B51397C7BA8C03C50FCFE53101 /* XKNotificationCenter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
