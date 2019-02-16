@@ -1,0 +1,16 @@
+PODS:
+  - XKNotificationCenter (1.0.0)
+
+DEPENDENCIES:
+  - XKNotificationCenter (from `../`)
+
+EXTERNAL SOURCES:
+  XKNotificationCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKNotificationCenter: b57f14ed0a91c1abc5033968c875f3ad3fc644e2
+
+PODFILE CHECKSUM: 8c0ce34714f0cee99b1e5114b9f20eaf0befb699
+
+COCOAPODS: 1.6.0
