@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XKNotificationCenter/Classes/**/*'
-  
+  s.ios.vendored_frameworks = 'XKNotificationCenter/Classes/XKNotificationCenter.framework'
+
   # s.resource_bundles = {
   #   'XKNotificationCenter' => ['XKNotificationCenter/Assets/*.png']
   # }

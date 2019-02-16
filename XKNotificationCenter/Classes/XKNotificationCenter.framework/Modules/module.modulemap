@@ -1,0 +1,6 @@
+framework module XKNotificationCenter {
+  umbrella header "XKNotificationCenter.h"
+
+  export *
+  module * { export * }
+}
