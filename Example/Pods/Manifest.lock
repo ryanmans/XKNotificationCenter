@@ -1,5 +1,5 @@
 PODS:
-  - XKNotificationCenter (1.0.0)
+  - XKNotificationCenter (2.1.0)
 
 DEPENDENCIES:
   - XKNotificationCenter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKNotificationCenter: 16d8100a43308275705e77089b12c904a0d7cff7
+  XKNotificationCenter: c74bba0fe5aeb5a160ca2d02d8767e9bd8a8ab58
 
 PODFILE CHECKSUM: 8c0ce34714f0cee99b1e5114b9f20eaf0befb699
 

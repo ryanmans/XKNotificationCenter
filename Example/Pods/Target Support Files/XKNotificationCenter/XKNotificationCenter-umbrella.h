@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSThread+GCD.h"
 #import "XKNotificationCenter.h"
 
 FOUNDATION_EXPORT double XKNotificationCenterVersionNumber;
