@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'XKNotificationCenter'
   s.version          = '2.1.0'
   s.summary          = '消息中心,异步传递消息'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
   s.homepage         = 'https://github.com/ryanmans/XKNotificationCenter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ryanmans' => '1696186412@qq.com' }
