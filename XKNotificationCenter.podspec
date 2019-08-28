@@ -19,5 +19,5 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ryanmans/XKNotificationCenter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'XKNotificationCenter/Classes/**/*'
-  s.ios.vendored_frameworks = 'XKNotificationCenter/Classes/XKNotificationCenter.framework'
+ # s.ios.vendored_frameworks = 'XKNotificationCenter/Classes/XKNotificationCenter.framework'
 end
