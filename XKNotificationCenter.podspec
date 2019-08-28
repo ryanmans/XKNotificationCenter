@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKNotificationCenter'
-  s.version          = '2.1.0'
+  s.version          = '2.2.0'
   s.summary          = '消息中心,异步传递消息'
   s.homepage         = 'https://github.com/ryanmans/XKNotificationCenter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
