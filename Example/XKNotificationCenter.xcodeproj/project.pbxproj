@@ -59,11 +59,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		794F49FE7E271DF1438A6D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		794F49FE7E271DF1438A6D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		827D9F048C17B27CCA356635 /* Pods-XKNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKNotificationCenter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKNotificationCenter_Tests/Pods-XKNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99235D638B6667842BD8BE42 /* XKNotificationCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKNotificationCenter.podspec; path = ../XKNotificationCenter.podspec; sourceTree = "<group>"; };
-		AE4C87EB43D8929432737339 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99235D638B6667842BD8BE42 /* XKNotificationCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKNotificationCenter.podspec; path = ../XKNotificationCenter.podspec; sourceTree = "<group>"; };
+		AE4C87EB43D8929432737339 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1F0ED8DC94DFCE1BD1AADE3 /* Pods-XKNotificationCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKNotificationCenter_Example.release.xcconfig"; path = "Target Support Files/Pods-XKNotificationCenter_Example/Pods-XKNotificationCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5FC7ACD16D712BB9CBB3629 /* Pods_XKNotificationCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKNotificationCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBCA01E641E9C1BAE7D5D72 /* Pods-XKNotificationCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKNotificationCenter_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKNotificationCenter_Example/Pods-XKNotificationCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				827D9F048C17B27CCA356635 /* Pods-XKNotificationCenter_Tests.debug.xcconfig */,
 				138A2BB3530BD063A20229B1 /* Pods-XKNotificationCenter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
